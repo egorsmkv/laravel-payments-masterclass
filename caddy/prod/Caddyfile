@@ -1,5 +1,5 @@
 example.com {
-    log {
+	log {
 		output stdout
 		format console
 		level INFO
