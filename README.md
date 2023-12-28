@@ -14,7 +14,7 @@ docker build --tag laravel_app:1.0 docker/apps
 docker-compose -f docker-compose.dev.yml up
 
 # Enter the container
-docker exec -it laravel-bolwanka-appwrite_apps_1 bash
+docker exec -it laravel-payments-masterclass-apps-1 bash
 
 # Install required libraries
 cd /app/frontend && php composer.phar install
