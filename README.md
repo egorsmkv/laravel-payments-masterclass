@@ -1,5 +1,8 @@
 # Laravel Payments Masterclass
 
+> [!NOTE]
+> Final code of the masterclass is here: https://github.com/egorsmkv/laravel-payments-masterclass-final
+
 ### Usage
 
 Fill the `dev.env` file before the start.
