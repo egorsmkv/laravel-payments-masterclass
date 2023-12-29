@@ -18,8 +18,6 @@ class HomeController extends Controller
      */
     public function index(Request $request): View
     {
-        $this->initialize($request);
-
         return view('home');
     }
 }

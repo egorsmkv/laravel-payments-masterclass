@@ -14,11 +14,4 @@ use Illuminate\Support\Facades\View;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
-    public function initialize(Request $request)
-    {
-        $user = [];
-
-        View::share('user', $user);
-    }
 }
