@@ -10,10 +10,6 @@ use Illuminate\Notifications\Notifiable;
  * @property string $id
  * @property string $name
  * @property string $email
- * @property string $language
- * @property string $password
- * @property string $google_id
- * @property string $facebook_id
  */
 class User extends Authenticatable
 {
